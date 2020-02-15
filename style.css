@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background: #131313;
+}
+
+h1, input, button, li, .logErros, .loading {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #f9f9f9;
+    margin: 30px 0;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app .row {
+    display: flex;
+    width: 80%;
+}
+
+.app .row input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    -webkit-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
+    box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
+}
+
+.app .row button {
+    width: 10%;
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+    margin-left: 9px;
+    background: #BE2727;
+    color: #f9f9f9;
+    transition: 0.3s;
+    -webkit-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
+    box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
+}
+.app .row button:hover {
+    cursor: pointer;
+
+    background: #FF3333;
+}
+.app ol {
+    margin: 20px 0;
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 20px;
+    width: 74%;
+    -webkit-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
+    box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);    
+}
+
+.app ol > li {
+    font-size: 16px;
+    margin: 6px 0 6px 0;
+}
+.log {
+    transition: 0.3s;
+}
+.logErros, .loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin: -20px 0 20px 0;
+}
+
+.loading {
+    background-color: #127B28;
+    color: #f9f9f9;
+}
+
+.logErros{
+    background-color: #BE2727;
+    color: #f9f9f9;
+}
