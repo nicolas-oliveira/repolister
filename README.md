@@ -6,7 +6,7 @@
   Simple Search engine in Github API repositories
 </h3>
 
-![Stars](https://badgen.net/github/stars/nicolas-oliveira/repolister)
+[![Stars](https://badgen.net/github/stars/nicolas-oliveira/repolister)](https://github.com/nicolas-oliveira/repolister/stargazers)
 ![Commits](https://badgen.net/github/commits/nicolas-oliveira/repolister)
 ![Last Commit](https://badgen.net/github/last-commit/nicolas-oliveira/repolister)
 [![License](https://badgen.net/github/license/nicolas-oliveira/repolister)](./LICENSE)
