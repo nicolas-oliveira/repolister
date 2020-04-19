@@ -8,6 +8,6 @@
 
 <br>
 
-![Stable Release](https://badgen.net/npm/license/lodash)
+[![Stable Release](https://badgen.net/npm/license/lodash)](license)
 
 [Link para o deploy](https://nicolas-oliveira.github.io/repolister/)
