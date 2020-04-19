@@ -7,6 +7,7 @@
 </h3>
 
 <br>
-[![Stable Release](https://badgen.net/npm/license/lodash)](https://npm.im/formik)
+
+![Stable Release](https://badgen.net/npm/license/lodash)
 
 [Link para o deploy](https://nicolas-oliveira.github.io/repolister/)
