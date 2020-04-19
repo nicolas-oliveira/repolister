@@ -7,8 +7,8 @@
 </h3>
 
 [![Stars](https://badgen.net/github/stars/nicolas-oliveira/repolister)](https://github.com/nicolas-oliveira/repolister/stargazers)
-![Commits](https://badgen.net/github/commits/nicolas-oliveira/repolister)
-![Last Commit](https://badgen.net/github/last-commit/nicolas-oliveira/repolister)
+[![Commits](https://badgen.net/github/commits/nicolas-oliveira/repolister)](https://github.com/nicolas-oliveira/repolister/commits/)
+[![Last Commit](https://badgen.net/github/last-commit/nicolas-oliveira/repolister)](https://github.com/nicolas-oliveira/repolister/commits/)
 [![License](https://badgen.net/github/license/nicolas-oliveira/repolister)](./LICENSE)
 
 
