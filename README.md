@@ -7,6 +7,6 @@
 </h3>
 
 <br>
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Stable Release](https://badgen.net/npm/license/lodash)](https://npm.im/formik)
 
 [Link para o deploy](https://nicolas-oliveira.github.io/repolister/)
