@@ -1,87 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     bottom: 0;
-}
-
-body, html {
-    height: 100%;
-}
-
-body {
-    background: #131313;
-}
-
-h1, input, button, li, .logErros, .loading {
     font-family: 'Roboto', sans-serif;
 }
-
+body {
+    background: #161616;
+}
 h1 {
     color: #f9f9f9;
-    margin: 30px 0;
 }
-
-.app {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.app .row {
-    display: flex;
-    width: 80%;
-}
-
-.app .row input {
-    width: 100%;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    transition: 0.3s;
-    -webkit-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
-    box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
-}
-
-.app .row button {
-    width: 10%;
-    border: none;
-    padding: 7px;
-    border-radius: 10px;
-    margin-left: 9px;
-    background: #BE2727;
+a {
     color: #f9f9f9;
-    transition: 0.3s;
-    -webkit-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
-    box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
+    text-decoration: none; /* no underline */
 }
-.app .row button:hover {
-    cursor: pointer;
-
-    background: #FF3333;
-}
-.app ol {
-    margin: 20px 0;
-    background: #f9f9f9;
-    padding: 40px;
-    border-radius: 20px;
-    width: 74%;
-    -webkit-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
-    box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);    
-}
-
-.app ol > li {
-    font-size: 16px;
-    margin: 6px 0 6px 0;
-}
-.log {
+a:hover {
+    color: #b8b8b8;
     transition: 0.3s;
 }
-.logErros, .loading {
+/* Estilização do bloco de loading */
+.loading {
+    background-color: #127B28;
+    color: #f9f9f9;
+}
+.logErros, 
+.loading {
+    transition: 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,13 +34,109 @@ h1 {
     padding: 10px;
     margin: -20px 0 20px 0;
 }
-
-.loading {
-    background-color: #127B28;
-    color: #f9f9f9;
+/* Posicionamento dos erros dos repos */
+.center .log {
+    position: absolute;
+    top: 2em;
+    padding: 40px;
 }
-
+/* Estilização dos erros */
 .logErros{
     background-color: #BE2727;
+    color: #f9f9f9;
+}
+/* Estilização da barra de pesquisa */
+.search {
+    max-width: 100vw;
+    margin: 1em;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.search input {
+    width: 70vw;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    flex-wrap: nowrap;
+    background-color: #1a1c1d;
+    color: #f9f9f9;
+}
+.search button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.3s;
+    background-color: #BE2727;
+    color: #f9f9f9;
+}
+.search button svg {
+    fill: #f9f9f9;
+}
+.search button:hover {
+    cursor: pointer;
+    background: #FF3333;
+}
+/* Estilização do container da página */
+.center {
+    padding-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.center h2 {
+    color: #f9f9f9;
+    font-size: 18px;
+}
+/* Estilização do container dos resultados */
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 70vh;
+    width: 85vw;
+    border-radius: 10px;
+    background-color: #1a1c1d;
+    -webkit-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
+    box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
+}
+/* Estilização do perfil */
+.content .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.content .profile img {
+    width: 150px;
+    border-radius: 100%;
+    -webkit-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
+    box-shadow: -1px 17px 23px -10px rgba(0,0,0,0.75);
+}
+.content .profile p {
+    line-height: 2.7em;
+    font-size: 23px;
+    font-weight: bold;
+    color: #f9f9f9;
+}
+/* Estilização da lista */
+.content .repos {
+    font-size: 20px;
+    line-height: 1.7em;
+    padding-bottom: 20px;
+    text-align: right;
     color: #f9f9f9;
 }
