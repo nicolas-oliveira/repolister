@@ -27,3 +27,5 @@
     - [x] Não se mostra usuários inexistentes.
     - [x] Há um erro caso o usuário não tenha repositórios.
     - [x] Caso o usuário não tenha nome completo, o nome preechido é o escrito na barra de pesquisa.
+- [ ] A lista de repositórios aparece na ordem do mais recente
+- [ ] A lista de repositórios tem paginação na parte inferior e superior
