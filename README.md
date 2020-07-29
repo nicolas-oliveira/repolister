@@ -8,7 +8,7 @@
 <br>
 <div align="center">
   <a href="https://github.com/nicolas-oliveira/repolister/stargazers"><img src="https://badgen.net/github/stars/nicolas-oliveira/repolister" alt="Stars"></img></a>
-  <a href="https://github.com/nicolas-oliveira/repolister/commits/"><img src="https://badgen.net/github/stars/nicolas-oliveira/repolister" alt="Commits"></img></a>
+  <a href="https://github.com/nicolas-oliveira/repolister/commits/"><img src="https://badgen.net/github/commits/nicolas-oliveira/repolister" alt="Commits"></img></a>
   <a href="https://github.com/nicolas-oliveira/repolister/commits/"><img src="https://badgen.net/github/last-commit/nicolas-oliveira/repolister" alt="Last Commit"></img></a>
   <a href="./LICENSE"<img src="https://badgen.net/github/license/nicolas-oliveira/repolister" alt="License"></img></a>
   <a href="#"><img src="https://badgen.net/github/release/nicolas-oliveira/repolister" alt="Release"></img></a>
