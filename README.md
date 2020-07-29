@@ -6,22 +6,16 @@
   Simple Search engine in Github API repositories
 </h3>
 <br>
+
 <div align="center">
   <a href="https://github.com/nicolas-oliveira/repolister/stargazers"><img src="https://badgen.net/github/stars/nicolas-oliveira/repolister" alt="Stars"></img></a>
   <a href="https://github.com/nicolas-oliveira/repolister/commits/"><img src="https://badgen.net/github/commits/nicolas-oliveira/repolister" alt="Commits"></img></a>
   <a href="https://github.com/nicolas-oliveira/repolister/commits/"><img src="https://badgen.net/github/last-commit/nicolas-oliveira/repolister" alt="Last Commit"></img></a>
   <a href="./LICENSE"><img src="https://badgen.net/github/license/nicolas-oliveira/repolister" alt="License"></img></a>
-  <a href="#"><img src="https://badgen.net/github/release/nicolas-oliveira/repolister" alt="Release"></img></a>
+  <a href="#"><img src="https://badgen.net/github/release/nicolas-oliveira/repolister" alt="Release"></img></a><br>
+  
+  <a href="https://nicolas-oliveira.github.io/repolister/">Link para o deploy</a>
 </div>
-
-[![Stars](https://badgen.net/github/stars/nicolas-oliveira/repolister)](https://github.com/nicolas-oliveira/repolister/stargazers)
-[![Commits](https://badgen.net/github/commits/nicolas-oliveira/repolister)](https://github.com/nicolas-oliveira/repolister/commits/)
-[![Last Commit](https://badgen.net/github/last-commit/nicolas-oliveira/repolister)](https://github.com/nicolas-oliveira/repolister/commits/)
-[![License](https://badgen.net/github/license/nicolas-oliveira/repolister)](./LICENSE)
-![Release](https://badgen.net/github/release/nicolas-oliveira/repolister)
-
-
-[Link para o deploy](https://nicolas-oliveira.github.io/repolister/)
 
 ### UserStories
 
