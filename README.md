@@ -10,7 +10,7 @@
   <a href="https://github.com/nicolas-oliveira/repolister/stargazers"><img src="https://badgen.net/github/stars/nicolas-oliveira/repolister" alt="Stars"></img></a>
   <a href="https://github.com/nicolas-oliveira/repolister/commits/"><img src="https://badgen.net/github/commits/nicolas-oliveira/repolister" alt="Commits"></img></a>
   <a href="https://github.com/nicolas-oliveira/repolister/commits/"><img src="https://badgen.net/github/last-commit/nicolas-oliveira/repolister" alt="Last Commit"></img></a>
-  <a href="./LICENSE"<img src="https://badgen.net/github/license/nicolas-oliveira/repolister" alt="License"></img></a>
+  <a href="./LICENSE"><img src="https://badgen.net/github/license/nicolas-oliveira/repolister" alt="License"></img></a>
   <a href="#"><img src="https://badgen.net/github/release/nicolas-oliveira/repolister" alt="Release"></img></a>
 </div>
 
@@ -34,5 +34,5 @@
     - [x] Não se mostra usuários inexistentes.
     - [x] Há um erro caso o usuário não tenha repositórios.
     - [x] Caso o usuário não tenha nome completo, o nome preechido é o escrito na barra de pesquisa.
-- [ ] A lista de repositórios aparece na ordem do mais recente
-- [ ] A lista de repositórios tem paginação na parte inferior e superior
+- [x] A lista de repositórios aparece na ordem do mais recente
+- [x] A lista de repositórios tem paginação na parte inferior e superior
